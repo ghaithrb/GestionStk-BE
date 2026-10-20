@@ -49,9 +49,9 @@ For IIS hosting, see [Deploy to IIS](#deploy-to-iis) for the additional Windows 
 
 ## Configuration
 
-The API reads its PostgreSQL connection string from the `ConnectionStrings:DefaultConnection` configuration key. The local configuration file is `API/appsettings.json`.
+The API reads its PostgreSQL connection string from the `ConnectionStrings:DefaultConnection` configuration key. Copy `API/appsettings.example.json` to `API/appsettings.json` for local development; the local file is ignored by Git so credentials are not published.
 
-Set the connection string to match your PostgreSQL host, port, database, and credentials. For example:
+Set the connection string in `API/appsettings.json` to match your PostgreSQL host, port, database, and credentials. For example:
 
 ```json
 {

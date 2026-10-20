@@ -1,0 +1,27 @@
+# .NET and Visual Studio build output
+.vs/
+**/bin/
+**/obj/
+**/build-check/
+**/TestResults/
+*.user
+*.suo
+
+# Generated publish output and application logs
+/publish/
+**/publish/
+logs/
+*.log
+
+# Local configuration and secrets
+API/appsettings.json
+API/appsettings.Development.json
+**/secrets.json
+.env
+.env.*
+!.env.example
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
