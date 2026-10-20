@@ -21,10 +21,13 @@ Only client routes and the connectivity check are currently exposed as HTTP endp
 ## Screenshots
 
 ### Internet Information Service (IIS) Manager
-![Swagger API](img/s2.png)
+![iis](img/s2.png)
 
 ### API
-![PostgreSQL Database](img/s3.png)
+![api](img/s3.png)
+
+### PostgreSQL DB
+![PostgreSQL Database](img/s4.png)
 
 ## Repository layout
 
