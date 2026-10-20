@@ -18,6 +18,14 @@ Only client routes and the connectivity check are currently exposed as HTTP endp
 - PostgreSQL
 - IIS deployment support through ASP.NET Core Module (ANCM)
 
+## Screenshots
+
+### Internet Information Service (IIS) Manager
+![Swagger API](img/s2.png)
+
+### API
+![PostgreSQL Database](img/s3.png)
+
 ## Repository layout
 
 ```text
